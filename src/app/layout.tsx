@@ -5,6 +5,7 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import "./globals.css";
+import { LightRays } from "@/components/light-rays";
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
@@ -51,13 +52,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6 border"
+          "min-h-screen bg-background font-sans antialiased relative max-w-2xl mx-auto py-12 sm:py-24 px-6 border"
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
 
-
+            <div className="absolute top-0 left-0 h-[600px] w-full overflow-hidden">
+              <LightRays />
+            </div>
             {children}
             <Navbar />
           </TooltipProvider>

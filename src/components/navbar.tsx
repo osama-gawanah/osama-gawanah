@@ -45,12 +45,14 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <Link
                     href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12"
+                      "size-12 transition-all duration-200 hover:scale-110 hover:bg-accent/50"
                     )}
                   >
-                    <social.icon className="size-4" />
+                    <social.icon className="size-4 transition-colors duration-200" />
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
