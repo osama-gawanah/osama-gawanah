@@ -45,28 +45,28 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "#",
+        url: "https://www.linkedin.com/in/osama-jawana/",
         icon: Icons.linkedin,
         navbar: true,
       },
-      Freelance: {
-        name: "Freelance",
-        url: "#",
-        icon: Icons.globe,
-        navbar: true,
-      },
-      Mostaql: {
-        name: "Mostaql",
-        url: "#",
-        icon: Icons.globe,
-        navbar: true,
-      },
-      Khamsat: {
-        name: "Khamsat",
-        url: "#",
-        icon: Icons.globe,
-        navbar: true,
-      },
+      // Freelance: {
+      //   name: "Freelance",
+      //   url: "#",
+      //   icon: Icons.globe,
+      //   navbar: true,
+      // },
+      // Mostaql: {
+      //   name: "Mostaql",
+      //   url: "#",
+      //   icon: Icons.globe,
+      //   navbar: true,
+      // },
+      // Khamsat: {
+      //   name: "Khamsat",
+      //   url: "#",
+      //   icon: Icons.globe,
+      //   navbar: true,
+      // },
       email: {
         name: "Send Email",
         url: "mailto:osama.gawanah@gmail.com",
