@@ -128,16 +128,19 @@ export const DATA = {
     {
       title: "QSE Cloud Platform",
       href: "https://cloud.qse.group/auth/login",
-      dates: "May 2025 - Present",
+      dates: "May 2025 - December 2025",
       active: true,
       description:
-        "Worked on a cloud-storage platform that provides file management services similar to Google Drive. Developed modern, responsive interfaces for uploading, storing, organizing, and sharing files securely. Built dashboards for users and admins to manage folders, permissions, storage space, and activity logs. Implemented real-time features such as progress tracking for file uploads and live updates on storage usage. Improved UI/UX to ensure smooth navigation and a user-friendly, clean layout across all devices. Integrated frontend with backend APIs for authentication, file management, and secure access control.",
+        "One of the most powerful projects I worked on this year. Built using a Monorepo structure, this comprehensive file management and storage system is inspired by Google Drive's File System architecture, with a strong focus on data security through Encryption & Decryption mechanisms. The platform features an advanced file management system with end-to-end encryption and decryption to ensure the highest levels of data security. Built comprehensive dashboards supporting both Tenant Admin and Super Admin roles with granular permission management. Implemented a quota system for each user to control storage limits and usage. Integrated a payment gateway using Stripe for managing subscriptions, billing, and storage limits. Developed modern, responsive interfaces for uploading, storing, organizing, and sharing files securely with real-time progress tracking and live storage usage updates.",
       technologies: [
-        "Next.js",
-        "TypeScript",
         "React",
+        "TypeScript",
         "TailwindCSS",
-        "GraphQL",
+        "REST API",
+        "Socket.io",
+        "React Query",
+        "Zustand",
+        "Stripe",
       ],
       links: [],
       image: "/works/qse.svg",
@@ -147,16 +150,17 @@ export const DATA = {
     {
       title: "AirClinc AI",
       href: "https://app.airclinic.ai/login",
-      dates: "May 2025 - Present",
+      dates: "May 2025 - December 2025",
       active: true,
       description:
-        "Worked on a dental-practice management platform powered by AI, designed to automate patient interactions and streamline operations. Developed admin/dashboard interfaces for managing appointments, patient inquiries, and practice analytics. Integrated AI receptionist capabilities that handle 24/7 phone calls, route calls intelligently, schedule appointments, and answer common patient questions. Linked the front end with real-time scheduling system that syncs with major Practice Management Systems (PMS) such as Dentrix, Open Dental, Eaglesoft, and more. Built UI components showing real-time analytics and reporting on practice performance, patient call volume, and appointment metrics. Ensured the platform meets high security and compliance standards (HIPAA), for safe handling of patient data.",
+        "Built using Laravel, worked on a dental-practice management platform powered by AI, designed to automate patient interactions and streamline operations. Developed admin/dashboard interfaces for managing appointments, patient inquiries, and practice analytics. Integrated AI receptionist capabilities that handle 24/7 phone calls, route calls intelligently, schedule appointments, and answer common patient questions. Linked the front end with real-time scheduling system that syncs with major Practice Management Systems (PMS) such as Dentrix, Open Dental, Eaglesoft, and more. Built UI components showing real-time analytics and reporting on practice performance, patient call volume, and appointment metrics. Ensured the platform meets high security and compliance standards (HIPAA), for safe handling of patient data.",
       technologies: [
-        "Next.js",
-        "TypeScript",
-        "React",
-        "TailwindCSS",
-        "GraphQL",
+        "Laravel",
+        "Bootstrap",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "REST API",
       ],
       links: [],
       image: "/works/airclinc.svg",
@@ -204,11 +208,11 @@ export const DATA = {
     {
       title: "Historic Jeddah",
       href: "https://visitalbalad.com/",
-      dates: "July 2022 - Present",
-      active: true,
+      dates: "July 2024 - September 2024",
+      active: false,
       description:
-        "Contributed to the development of the Visit Al-Balad website, which promotes the historic district of Jeddah (Al Balad). The site is built using Angular, and I led work on several UI components and pages. Implemented interactive maps and content modules to highlight heritage sites, markets, historic houses, and cultural points of interest. Ensured responsive design and performance optimization to deliver a smooth user experience across devices.",
-      technologies: ["Angular", "TypeScript", "HTML5", "CSS3", "Sass"],
+        "Built using Angular, contributed to the development of the Visit Al-Balad website, which promotes the historic district of Jeddah (Al Balad). Led work on several UI components and pages. Implemented interactive maps and content modules to highlight heritage sites, markets, historic houses, and cultural points of interest. Ensured responsive design and performance optimization to deliver a smooth user experience across devices.",
+      technologies: ["Angular", "TypeScript","JavaScript","REST API", "HTML5", "CSS3", "Sass"],
       links: [],
       image: "/works/jeddah.svg",
       video: "",
@@ -216,12 +220,12 @@ export const DATA = {
     },
     {
       title: "Noon Alif Yaa",
-      href: "https://ay-fe.ced.sa/",
-      dates: "July 2022 - Present",
+      href: "https://www.ay.sa/",
+      dates: "July 2025 - December 2025",
       active: true,
       description:
         "A leading digital transformation partner specializing in comprehensive digital and marketing services. Services include web & mobile development, AI-powered solutions, cloud infrastructure, digital marketing, and brand identity. Founded in 2007 (originally named 'EDesign'), the company has grown to serve clients across more than 20 countries. They emphasize innovation, quality, transparency, and sustainability, while anchoring their brand identity in Arab cultural values. Actively supports Saudi Arabia's Vision 2030 by helping organizations digitally transform and scale.",
-      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
+      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS", "REST API", "Zustand"],
       links: [],
       image: "/works/Noon.svg",
       video: "",
@@ -230,8 +234,8 @@ export const DATA = {
     {
       title: "Alesayi",
       href: "https://www.aecksa.com/",
-      dates: "July 2022 - Present",
-      active: true,
+      dates: "July 2022 - August 2022",
+      active: false,
       description:
         "An online store is a platform on the internet used to sell products and services. Customers can browse the offered products or services, choose what they find suitable for their needs, add it to the shopping cart, and complete the purchase process online. The online store provides an easy-to-use interface for customers to browse products and their information, as well as secure and reliable payment methods. The success of an online store relies on the smooth and convenient shopping experience it provides to customers, in addition to the quality of the products or services offered and excellent customer service. Led the development from inception with a team of two members, ensuring timely delivery.",
       technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
@@ -243,8 +247,8 @@ export const DATA = {
     {
       title: "Boka",
       href: "https://boka.co/",
-      dates: "July 2022 - Present",
-      active: true,
+      dates: "July 2022 - September 2022",
+      active: false,
       description:
         "Co-created Boka, a marketplace connecting clients who are looking to book beauty, health, and wellness appointments with businesses and providers.",
       technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
