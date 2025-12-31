@@ -238,7 +238,7 @@ export const DATA = {
       active: false,
       description:
         "An online store is a platform on the internet used to sell products and services. Customers can browse the offered products or services, choose what they find suitable for their needs, add it to the shopping cart, and complete the purchase process online. The online store provides an easy-to-use interface for customers to browse products and their information, as well as secure and reliable payment methods. The success of an online store relies on the smooth and convenient shopping experience it provides to customers, in addition to the quality of the products or services offered and excellent customer service. Led the development from inception with a team of two members, ensuring timely delivery.",
-      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
+      technologies: ["Laravel", "Bootstrap", "HTML5", "CSS3", "JavaScript"],
       links: [],
       image: "/works/alesayi.svg",
       video: "",
