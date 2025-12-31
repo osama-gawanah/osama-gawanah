@@ -257,18 +257,19 @@ export const DATA = {
       video: "",
       imageView: "/boka-view.png",
     },
-    // {
-    //   title: "Limelite",
-    //   href: "#",
-    //   dates: "July 2022 - Present",
-    //   active: true,
-    //   description:
-    //     "Co-created a platform that connects customers, employees, and storytellers to deliver authentic marketing and entertainment experiences. Led the development from inception with a team of four members, ensuring timely delivery.",
-    //   technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
-    //   links: [],
-    //   image: "",
-    //   video: "",
-    // },
+    {
+      title: "Limelite",
+      href: "#",
+      dates: "July 2022",
+      active: false,
+      description:
+        "Co-created a platform that connects customers, employees, and storytellers to deliver authentic marketing and entertainment experiences. Led the development from inception with a team of four members, ensuring timely delivery.",
+      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
+      links: [],
+      image: "",
+      video: "",
+      imageView: "",
+    },
   ],
   hackathons: [],
 } as const;
