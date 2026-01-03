@@ -8,9 +8,9 @@ export const DATA = {
   location: "Gaza, Palestine",
   locationLink: "https://www.google.com/maps/place/gaza",
   description:
-    "I am a skilled Frontend Developer with three years of experience in web development. My expertise lies in crafting user-friendly and visually appealing interfaces using HTML, CSS, JavaScript, React, Next.js, and more.",
+    "I am a skilled Frontend Developer with 4+ years of experience in web development. My expertise lies in crafting user-friendly and visually appealing interfaces using HTML, CSS, JavaScript, React, Next.js, and more.",
   summary:
-    "I am a skilled Frontend Developer with three years of experience in web development. My expertise lies in crafting user-friendly and visually appealing interfaces using HTML, CSS, JavaScript, React, Next.js, and more. With a keen eye for design and a strong understanding of user experience principles, I am proficient in translating UI/UX designs into responsive and interactive web applications. I am passionate about staying updated with the latest trends and technologies in frontend development to deliver cutting-edge solutions.",
+    "I am a skilled Frontend Developer with 4+ years of experience in web development. My expertise lies in crafting user-friendly and visually appealing interfaces using HTML, CSS, JavaScript, React, Next.js, and more. With a keen eye for design and a strong understanding of user experience principles, I am proficient in translating UI/UX designs into responsive and interactive web applications. I am passionate about staying updated with the latest trends and technologies in frontend development to deliver cutting-edge solutions.",
   avatarUrl: "/me.png",
   skills: [
     "React",
