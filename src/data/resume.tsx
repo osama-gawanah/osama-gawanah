@@ -169,9 +169,9 @@ export const DATA = {
     },
     {
       title: "Smart AI Platform",
-      href: "https://dev.get-smart.co/",
-      dates: "December 2024 - August 2025",
-      active: false,
+      href: "https://www.get-smart.co/",
+      dates: "August 2025 - January 2026",
+      active: true,
       description:
         "A platform providing AI-powered data analysis services. Connected to databases to enable the AI to generate reports, statistics, and charts. Developed interactive and clear interfaces to present analytical results to users. Used Next.js to build a fast, modern, and high-performance frontend.",
       technologies: [
