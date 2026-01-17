@@ -2,23 +2,23 @@
 <h2> <img width="30" src="https://c.tenor.com/nebZyl8oN7IAAAAi/wave-hello.gif" />, I'm </h2>
 
 <h3 align="center"> <a href="https://github.com/aws2002">
-    <img alt="" src="https://readme-typing-svg.herokuapp.com/?lines=Osama+Gawanah;Frontend+Developer;React.js+%7C+Next.js+%7C+React+Native;Transforming+UI%2FUX+to+Code&font=Fira%20Code&center=true&width=680&height=45&color=68C3D4&vCenter=true&size=25"></a>
+    <img alt="" src="https://readme-typing-svg.herokuapp.com/?lines=Osama+Gawanah;Frontend+Developer;React.js+%7C+Next.js+%7C+React+Native;+4+Years+of+Experience&font=Fira%20Code&center=true&width=680&height=45&color=68C3D4&vCenter=true&size=25"></a>
 </h3>
 
 <p align="center">
-  I am a skilled Frontend Developer with 4 years of experience in web development[cite: 4]. My expertise lies in crafting user-friendly and visually appealing interfaces[cite: 5].
+  I am a skilled Frontend Developer with <strong>+4 years of experience</strong> in web development. My expertise lies in crafting user-friendly and visually appealing interfaces.
 </p>
   <br/>
 
 
 <h3>🔎 About me :</h3>
 
-- 🎓  I'm a Computer Systems Engineering student at **Al-Azhar University of Gaza**.
-- 💻  I specialize in building responsive web applications using **React, Next.js, and Angular**[cite: 78, 79, 82].
-- 🚀  Proficient in translating UI/UX designs into interactive experiences[cite: 6].
-- 🌐  Experienced in working with **Laravel, React Native, and GraphQL**[cite: 80, 81, 95].
+- 🎓  **Bachelor's Degree in Computer Systems Engineering** from **Al-Azhar University of Gaza**.
+- 💻  I specialize in building responsive web applications using **React, Next.js, and Angular**.
+- 🚀  Proficient in translating UI/UX designs into interactive experiences.
+- 🌐  Experienced in working with **Laravel, React Native, and GraphQL**.
 - 📫  Feel free to reach out to me via WhatsApp or Email.
-- 📄  **Experience:** Worked with DASH, The Innovation Lab, and Bitlab on high-quality projects[cite: 10, 36, 50].
+- 📄  **Experience:** Worked with DASH, The Innovation Lab, and Bitlab on high-quality projects.
 
 <h3 dir="auto">A little more about my coding life.</h3>
 
