@@ -1,8 +1,27 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { Metadata } from "next";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
+}
+
+type MetaConfig = {
+  title: string;
+  description: string;
+  canonical?: string;
+};
+
+export function generateMeta({ title, description, canonical }: MetaConfig): Metadata {
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: canonical
+    }
+  };
 }
 
 export function formatDate(date: string) {

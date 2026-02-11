@@ -1,11 +1,13 @@
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
+import { QueryProvider } from "@/components/providers/query-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import "./globals.css";
 import { LightRays } from "@/components/light-rays";
+import AIChatDialog from "@/components/ai/ai-chat-dialog";
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
@@ -56,14 +58,16 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
-          <TooltipProvider delayDuration={0}>
-
-            <div className="absolute top-0 left-0 h-[600px] w-full overflow-hidden">
-              <LightRays />
-            </div>
-            {children}
-            <Navbar />
-          </TooltipProvider>
+          <QueryProvider>
+            <TooltipProvider delayDuration={0}>
+              <div className="absolute top-0 left-0 h-[600px] w-full overflow-hidden">
+                <LightRays />
+              </div>
+              {children}
+              <Navbar />
+              <AIChatDialog />
+            </TooltipProvider>
+          </QueryProvider>
         </ThemeProvider>
       </body>
     </html>

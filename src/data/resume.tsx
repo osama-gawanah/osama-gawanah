@@ -220,7 +220,7 @@ export const DATA = {
     },
     {
       title: "Noon Alif Yaa",
-      href: "https://www.ay.sa/",
+      href: "http://ay-fe.ced.sa/",
       dates: "July 2025 - December 2025",
       active: true,
       description:
