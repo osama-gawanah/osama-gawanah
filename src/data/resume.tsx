@@ -78,6 +78,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Mlsoon",
+      href: "https://mlsoon.net",
+      badges: [],
+      location: "Remote",
+      title: "Front End Developer",
+      logoUrl: "/works/logo-small-ltr.svg",
+      start: "February 2026",
+      end: null,
+      description:
+        "Leading the end-to-end frontend development of Mlsoon, an AI-powered e-commerce SaaS platform. Building three role-based experiences from scratch: a Super Admin panel for managing tenants, subscriptions, and platform-wide operations; a Vendor dashboard for running stores, products, orders, customers, and marketing; and a Customer-facing storefront for browsing and checkout. Integrating AI agents that handle selling, customer follow-ups, and automated product and content creation. Implementing multi-channel selling across a web store, WhatsApp, and social media, alongside multi-language support, analytics dashboards, and payment integration through Paymob.",
+    },
+    {
       company: "BitLab",
       href: "https://theinnolab.co",
       badges: [],
@@ -85,7 +97,7 @@ export const DATA = {
       title: "Front End Developer",
       logoUrl: "/bitlab.jpg",
       start: "May 2025",
-      end: null,
+      end: "February 2026",
       description:
         "Worked on AI-powered clinic management platforms designed to streamline medical operations and automate daily tasks. Built Admin Dashboards from scratch with a focus on clarity, usability, and smooth navigation. Developed dynamic UI components for managing doctors, appointments, patient records, schedules, and AI-generated insights. Integrated frontend with AI services to display automated reports, predictions, and smart recommendations. Ensured dashboards were fully responsive and optimized for high performance and scalability.",
     },
@@ -109,7 +121,7 @@ export const DATA = {
       title: "Front End Developer",
       logoUrl: "/dash.jpg",
       start: "July 2022",
-      end: null,
+      end: "February 2026",
       description:
         "Worked on multiple high-quality front-end projects, maintaining a responsible and professional approach. Adding value through clear communication and attention to details.",
     },
@@ -125,6 +137,29 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Mlsoon AI Commerce",
+      href: "https://mlsoon.net",
+      dates: "February 2026 - Present",
+      active: true,
+      description:
+        "Mlsoon is an AI-powered e-commerce SaaS platform that gives every merchant a complete digital team to sell, market, and create professional content in nine languages — all from a phone. As the lead developer, I built the platform end-to-end across three role-based experiences: a Super Admin panel for managing tenants, subscriptions, plans, and platform-wide operations; a Vendor dashboard for running stores, products, orders, customers, and marketing; and a Customer-facing storefront for browsing and checkout. Integrated AI agents that sell, negotiate, design product images, run marketing campaigns, follow up with customers, and monitor performance around the clock. Built multi-channel selling across a web store, WhatsApp, and social media, with automatic content translation, scheduled social posting, conversation tracking, sales analytics, SEO and Google Maps management, coupons, and shipping. Integrated local payments through Paymob (mada, Visa, Mastercard, Apple Pay). Began development in February 2026 and continue to actively build and expand the platform.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "REST API",
+        "OpenAI",
+        "Anthropic",
+        "WhatsApp API",
+        "Paymob",
+      ],
+      links: [],
+      image: "/works/mlsoon.png",
+      video: "",
+      imageView: "/view-mlsoon.png",
+    },
     {
       title: "QSE Cloud Platform",
       href: "https://cloud.qse.group/auth/login",
@@ -220,7 +255,7 @@ export const DATA = {
     },
     {
       title: "Noon Alif Yaa",
-      href: "http://ay-fe.ced.sa/",
+      href: "https://www.ay.sa",
       dates: "July 2025 - December 2025",
       active: true,
       description:

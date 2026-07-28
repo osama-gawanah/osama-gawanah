@@ -193,12 +193,12 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+          <div className="columns-1 sm:columns-2 gap-3 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => (
 
-              <LinkPreview isStatic={true} imageSrc={project.imageView} key={project.title} url={project.href} className=" h-full block">
+              <LinkPreview isStatic={true} imageSrc={project.imageView} key={project.title} url={project.href} className="mb-3 block break-inside-avoid">
                 <BlurFade
-                  className="h-full block"
+                  className="block"
                   delay={BLUR_FADE_DELAY * 12 + id * 0.05}
                 >
                   <ProjectCard
