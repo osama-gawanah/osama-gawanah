@@ -82,7 +82,7 @@ export const DATA = {
       href: "https://mlsoon.sa",
       badges: [],
       location: "Remote",
-      title: "Front End Developer",
+      title: "Lead Frontend Developer",
       logoUrl: "/works/logo-small-ltr.svg",
       start: "February 2026",
       end: null,
