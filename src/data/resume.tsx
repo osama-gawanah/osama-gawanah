@@ -79,7 +79,7 @@ export const DATA = {
   work: [
     {
       company: "Mlsoon",
-      href: "https://mlsoon.net",
+      href: "https://mlsoon.sa",
       badges: [],
       location: "Remote",
       title: "Front End Developer",
@@ -87,7 +87,7 @@ export const DATA = {
       start: "February 2026",
       end: null,
       description:
-        "Leading the end-to-end frontend development of Mlsoon, an AI-powered e-commerce SaaS platform. Building three role-based experiences from scratch: a Super Admin panel for managing tenants, subscriptions, and platform-wide operations; a Vendor dashboard for running stores, products, orders, customers, and marketing; and a Customer-facing storefront for browsing and checkout. Integrating AI agents that handle selling, customer follow-ups, and automated product and content creation. Implementing multi-channel selling across a web store, WhatsApp, and social media, alongside multi-language support, analytics dashboards, and payment integration through Paymob.",
+        "Fully responsible for the entire frontend of Mlsoon, an AI-powered e-commerce SaaS platform, across all three of its systems. Owning each one end-to-end and building it from scratch: a Super Admin panel for managing tenants, subscriptions, and platform-wide operations; a Vendor dashboard for running stores, products, orders, customers, and marketing; and a Customer-facing shop for browsing and checkout. Defining the shared frontend architecture, design system, and component library used across all three. Integrating AI agents that handle selling, customer follow-ups, and automated product and content creation. Implementing multi-channel selling across a web store, WhatsApp, and social media, alongside multi-language support, analytics dashboards, and payment integration through Paymob.",
     },
     {
       company: "BitLab",
@@ -139,11 +139,11 @@ export const DATA = {
   projects: [
     {
       title: "Mlsoon AI Commerce",
-      href: "https://mlsoon.net",
+      href: "https://mlsoon.sa",
       dates: "February 2026 - Present",
       active: true,
       description:
-        "Mlsoon is an AI-powered e-commerce SaaS platform that gives every merchant a complete digital team to sell, market, and create professional content in nine languages — all from a phone. As the lead developer, I built the platform end-to-end across three role-based experiences: a Super Admin panel for managing tenants, subscriptions, plans, and platform-wide operations; a Vendor dashboard for running stores, products, orders, customers, and marketing; and a Customer-facing storefront for browsing and checkout. Integrated AI agents that sell, negotiate, design product images, run marketing campaigns, follow up with customers, and monitor performance around the clock. Built multi-channel selling across a web store, WhatsApp, and social media, with automatic content translation, scheduled social posting, conversation tracking, sales analytics, SEO and Google Maps management, coupons, and shipping. Integrated local payments through Paymob (mada, Visa, Mastercard, Apple Pay). Began development in February 2026 and continue to actively build and expand the platform.",
+        "Mlsoon is an AI-powered e-commerce SaaS platform that gives every merchant a complete digital team to sell, market, and create professional content in nine languages — all from a phone. I am fully responsible for the entire frontend across all three of the platform's systems, owning each end-to-end and building it from scratch: a Super Admin panel for managing tenants, subscriptions, plans, and platform-wide operations; a Vendor dashboard for running stores, products, orders, customers, and marketing; and a Customer-facing shop for browsing and checkout — plus the shared frontend architecture, design system, and component library behind all three. Integrated AI agents that sell, negotiate, design product images, run marketing campaigns, follow up with customers, and monitor performance around the clock. Built multi-channel selling across a web store, WhatsApp, and social media, with automatic content translation, scheduled social posting, conversation tracking, sales analytics, SEO and Google Maps management, coupons, and shipping. Integrated local payments through Paymob (mada, Visa, Mastercard, Apple Pay). Began development in February 2026 and continue to actively build and expand the platform.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -159,6 +159,72 @@ export const DATA = {
       image: "/works/mlsoon.png",
       video: "",
       imageView: "/view-mlsoon.png",
+    },
+    {
+      title: "Saud bin Abdulmajeed",
+      href: "https://saudbinabdulmajeed.com/",
+      dates: "June 2026",
+      active: true,
+      description:
+        "A bilingual personal portfolio for Saud bin Abdulmajeed, a Saudi composer and researcher of traditional Arabian Peninsula music. Built the site end-to-end: an About section introducing his training in Eastern music, a 16-year chronological Journey timeline covering his milestones from 2007 to today, a Listen section linking his compositions across Spotify, Apple Music, Anghami, Deezer, and Amazon Music, and a Contact form for commissions, collaborations, and research inquiries. Designed on a dark editorial theme with a custom design-token system, full Arabic/English localization with RTL and LTR layouts, SEO metadata and hreflang alternates, and a smooth animated, fully responsive experience.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Framer Motion",
+        "i18n / RTL",
+        "SEO",
+      ],
+      links: [],
+      image: "/works/saud.svg",
+      video: "",
+      imageView: "/works/saud.svg",
+    },
+    {
+      title: "OND — Oud & Darbuka",
+      href: "https://web.oudanddarbuka.com/",
+      dates: "June 2026",
+      active: true,
+      description:
+        "OND is the largest live Arabic rhythm app, with 400+ studio-quality rhythms, 500,000+ musicians, and the #1 spot among paid music apps on the App Store. I built the web side of the product: a marketing landing page and the full web-app dashboard that mirrors the iOS and Android experience. The landing page covers the feature showcase, subscription tiers, store links, and testimonials. The dashboard delivers the rhythm library with search and filtering, a detailed song library, playback with speed and pitch control that keeps the rhythm intact, AI-powered stem separation to isolate drums or vocals from any track, audio extraction from video, progress tracking, and full account, authentication, and subscription management. Built RTL-first with Arabic and English support, responsive across devices.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "REST API",
+        "React Query",
+        "Zustand",
+        "Web Audio API",
+        "i18n / RTL",
+      ],
+      links: [],
+      image: "/works/ond.svg",
+      video: "",
+      imageView: "/works/ond.svg",
+    },
+    {
+      title: "RETM | رتم",
+      href: "https://retm.app",
+      dates: "June 2026",
+      active: true,
+      description:
+        "RETM is a smart rhythm platform for Arabic music, available as a web app and a native iOS app. It gives musicians a large library of modern and rare Arabic rhythms with full control over tempo and rhythm transitions, so they can perform and practice without needing a live band. Built the multilingual (Arabic/English) RTL-first web experience with Next.js and TailwindCSS, including light/dark theming, the marketing site, the rhythm library, a lyrics section, authentication flows, and the user dashboard. The product bundles a metronome, a tuner with Arabic instructions, a recorder with audio effects, an AI-assisted practice experience, RETM Academy for learning, and the first organized Arabic community for sharing rhythms.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "REST API",
+        "Radix UI",
+        "Framer Motion",
+        "i18n / RTL",
+      ],
+      links: [],
+      image: "/works/retm.svg",
+      video: "",
+      imageView: "/works/retm.svg",
     },
     {
       title: "QSE Cloud Platform",
